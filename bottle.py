@@ -2450,7 +2450,7 @@ class FileUpload(object):
             self._copy_file(destination, chunk_size)
     
     @property
-    def content():
+    def content(self):
         return self.file.read()
 
 ###############################################################################
